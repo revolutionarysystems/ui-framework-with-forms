@@ -101,7 +101,7 @@
         <dependency>
             <groupId>com.rhinoforms</groupId>
             <artifactId>rhinoforms</artifactId>
-            <version>1.2.5</version>
+            <version>1.2.7-SNAPSHOT</version>
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
