@@ -3,3 +3,8 @@ before_install: git clone http://github.com/revolutionarysystems/travis.git targ
 script: mvn deploy --settings target/travis/settings.xml
 env:
   secure: NPzQAO8FTgjzheXvlFweYeavDfWOUWs/xQhPR/ZyPlJFab9LT6fVGQ9Uyd0PFbdGmOKD0+w0mvkaS1wO+uruF+6KNFwJPiS9KZQZMo71sl3Z9XH7N6C3ENImUVpOZ1CFmtd5LsS41M7lQqwyasud/VgDORd6tAZfeKWFyb0Voho=
+notifications:
+  email:
+  - adam@revolutionarysystems.co.uk
+  - andrew@revolutionarysystems.co.uk
+  - ci@revolutionarysystems.co.uk
